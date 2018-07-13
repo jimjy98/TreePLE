@@ -1,0 +1,35 @@
+<manager id="1">
+  <tree id="2">
+    <tree id="3">
+      <x>1.0</x>
+      <y>1.0</y>
+      <height>1.1</height>
+      <diameter>1.1</diameter>
+      <landType>Institutional</landType>
+      <id>25</id>
+      <species id="4">
+        <nameEnglish>oak</nameEnglish>
+      </species>
+      <municipality id="5">
+        <name>locationA</name>
+        <tree id="6">
+          <tree reference="3"/>
+        </tree>
+      </municipality>
+      <reports id="7"/>
+    </tree>
+  </tree>
+  <species id="8">
+    <species reference="4"/>
+  </species>
+  <municipality id="9">
+    <municipality reference="5"/>
+  </municipality>
+  <report id="10">
+    <report id="11">
+      <reportDate id="12">2015-09-15</reportDate>
+      <reportType>Planted</reportType>
+      <Reporter>Martin</Reporter>
+    </report>
+  </report>
+</manager>

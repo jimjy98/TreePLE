@@ -1,0 +1,129 @@
+class TreePle{
+  1 <@>- 1 Authentication authentication;
+  1 <@>- * Tree tree;
+  1 <@>- * Species species;
+  1 <@>- * Municipality municipality;
+}
+
+class Authentication{
+  1 <@>- * Report report;
+  1 <@>- * User user;
+  1 <@>- * Session session;
+}
+
+class User{
+   1 -- * Report report;
+   1 -- 1 Session currentsession;
+   1 <@>- 1 Permission permission;
+  //Each person normally have one type of permission. Exception will go to ReservedPermission
+}
+
+class Permission{
+}
+
+class RegularPermission{
+  isA Permission;
+}
+
+class SpecialistPermission{
+  isA Permission;
+}
+
+class ReservedPermission{
+  isA Permission;
+}
+class Session{
+}
+
+class Report{
+  1 -- 1 Tree latestreport;
+}
+
+class Tree{
+  * -- 1 Municipality location;
+}
+
+class Municipality{
+ 1--2 EnvironmentAnalysis analysis;
+  //Umple does not allow multiple associations, so I make it a 1 -- 2 association: the first is present analysis and the second is future analysis.
+  
+}
+class Species{
+  1-- * Tree;
+}
+
+class EnvironmentAnalysis{
+}
+  
+
+class TreePle
+{
+  position 34 30 109 45;
+}
+
+class Authentication
+{
+  position 32 250 109 45;
+  position.association Authentication__User:user 109,2 0,4;
+}
+
+class User
+{
+  position 342 252 109 45;
+  position.association Permission:permission__User 109,0 0,0;
+  position.association Report:report__User 0,10 109,10;
+  position.association Session:currentsession__User 31,45 102,0;
+}
+
+class Permission
+{
+  position 487 234 109 45;
+}
+
+class Session
+{
+  position 176 322 109 45;
+}
+
+class Report
+{
+  position 209 202 109 45;
+  position.association Report__Tree:latestreport 5,0 21,45;
+}
+
+class Tree
+{
+  position 212 99 109 45;
+}
+
+class Species
+{
+  position 95 145 109 45;
+  position.association Species__Tree 109,0 0,45;
+}//$?[End_of_model]$?
+
+class RegularPermission
+{
+  position 289 327 135 45;
+}
+
+class SpecialistPermission
+{
+  position 440 326 145 45;
+}
+
+class ReservedPermission
+{
+  position 597 324 145 45;
+}
+
+class Municipality
+{
+  position 208 30 109 45;
+  position.association EnvironmentAnalysis:analysis__Municipality 109,22 0,9;
+}
+
+class EnvironmentAnalysis
+{
+  position 384 34 147 45;
+}

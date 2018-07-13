@@ -1,0 +1,107 @@
+h1 {
+  text-align: end;
+  font-family: 'Helvetica', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  border: 1px solid #e7e7e7;
+  background-color: #0A7839;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #111;
+}
+
+.active {
+  background-color: lime;
+}
+
+h2 {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Helvetica', sans-serif;
+  text-decoration: underline;
+}
+
+.body {
+  font-size: 18px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 80%;
+    align-content: center;
+    margin-left: 10%;
+}
+
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+
+input {
+  display: block;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 1024px) {
+    #scrolling {
+        height: 400px;
+        overflow-y: scroll;
+    }
+}
+
+#map {
+    width: 80%;
+    height: 350px;
+    background-color: grey;
+    align-items: center;
+}
+
+.table {
+    overflow-y: scroll;
+    height: 450px;
+    display: block;
+}
+
+.navigationBar {
+    background-color: darkgreen;
+    padding: 1%;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}

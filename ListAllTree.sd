@@ -1,0 +1,12 @@
+View:Actor
+web:<<boundary>>TreePlePageWebFrontEnd [a]
+controller:<<REST>>TreePleController [a]
+service:<<controller>>TreePleService [a]
+<<entity>>manager:TreePle
+/<<entity>>tree:Tree
+
+View:web.ListAllTreeActionPerformed()
+web:return TreeDTO<List>=controller.ListAllTree()
+controller:return TreeDTO<List>=service.getAllTree()
+service:return Tree<List>=<<entity>>manager.getTrees()
+web:View.

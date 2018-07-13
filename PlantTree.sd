@@ -1,0 +1,41 @@
+View:Actor
+android:<<boundary>>TreePlePageAndroid [a]
+controller:<<REST>>TreePleController [a]
+service:<<controller>>TreePleService [a]
+<<entity>>manager:TreePle
+/<<entity>>species:Species
+/<<entity>>tree:Tree
+/<<entity>>report:Report
+
+View:android.PlantTreeActionPerformed()
+android:return reportDTO=controller.PlantTree()
+*1 android
+Include parameters:
+- (double) x,y
+- (String) munipacity
+- (String) species
+- (Person) reporter
+(Optional) 
+- (double) height, diameter
+Also, assume the reporter's
+account has been registered
+in the Persistence
+*1
+controller:.return species=<<entity>>manager.getSpecies()
+[c if(species not exist)]
+<<entity>>manager:<<entity>>species.new()
+[c else]
+<<entity>>manager:return species=<<entity>>species.getSpecies()
+[/c]
+[/c]
+
+controller:return tree=service.createnewTree(species)
+service:<<entity>>tree.new()
+service:<<entity>>manager.addTree(tree)
+controller:return report=service.createnewReport(reporter,tree)
+service:<<entity>>report.new()
+service:<<entity>>manager.addReport(report)
+controller:reportDTO=service.converttoDTO(report)
+android:View.
+
+

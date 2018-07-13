@@ -1,0 +1,17 @@
+Municipal,LandType,X,Y,Name_Latin,Name_French,Name_English,Diameter,Height
+MontrealWest,Residential,45.473849,-73.626271,Fraxinus americana,Frêne d'Amérique,White Ash,45,4
+MontrealWest,Residential,45.474274,-73.636267,Fraxinus americana,Frêne d'Amérique,White Ash,33,3
+MontrealWest,Residential,45.471088,-73.655652,Fraxinus americana,Frêne d'Amérique,White Ash,33,5
+MontrealWest,Residential,45.478961,-73.859316,Fraxinus pennsylvanica,Frêne de Pennsylvanie,Red Ash,11,7
+MontrealWest,Residential,45.619487,-73.649157,Fraxinus pennsylvanica,Frêne de Pennsylvanie,Red Ash,33,10
+MontrealWest,Institutional,45.023648,-73.159648,Fraxinus pennsylvanica,Frêne de Pennsylvanie,Red Ash,14,23
+MontrealWest,Institutional,45.694528,-73.675842,Fraxinus pennsylvanica,Frêne de Pennsylvanie,Red Ash,13,4
+MontrealWest,Institutional,45.639128,-73.649121,Fraxinus pennsylvanica,Frêne de Pennsylvanie,Red Ash,8,5
+MontrealWest,Institutional,45.976465,-73.235689,Fraxinus pennsylvanica,Frêne de Pennsylvanie,Red Ash,16,8
+MontrealNorth,Institutional,45.316475,-73.649162,Fraxinus pennsylvanica,Frêne de Pennsylvanie,Red Ash,9,6
+MontrealNorth,Park,45.649312,-73.645289,Fraxinus pennsylvanica,Frêne de Pennsylvanie,Red Ash,12,7
+MontrealNorth,Park,45.326412,-73.023058,Fraxinus pennsylvanica,Frêne de Pennsylvanie,Red Ash,20,8
+MontrealNorth,Municipal,45.316792,-73.164964,Fraxinus pennsylvanica,Frêne de Pennsylvanie,Red Ash,25,9
+CND-NDG,Municipal,45.134625,-73.612987,Fraxinus pennsylvanica,Frêne de Pennsylvanie,Red Ash,25,7
+CND-NDG,Municipal,45.302137,-73.649832,Fraxinus pennsylvanica,Frêne de Pennsylvanie,Red Ash,23,6
+CND-NDG,Municipal,45.032094,-73.620973,Fraxinus pennsylvanica,Frêne de Pennsylvanie,Red Ash,24,5

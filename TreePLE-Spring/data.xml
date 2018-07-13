@@ -1,0 +1,536 @@
+<manager id="1">
+  <tree id="2">
+    <tree id="3">
+      <x>45.473849</x>
+      <y>-73.626271</y>
+      <height>4.0</height>
+      <diameter>45.0</diameter>
+      <landType>Residential</landType>
+      <id>1</id>
+      <species id="4">
+        <nameLatin>Fraxinus americana</nameLatin>
+        <nameEnglish>White Ash</nameEnglish>
+        <nameFrench>Frêne d&apos;Amérique</nameFrench>
+      </species>
+      <municipality id="5">
+        <name>MontrealWest</name>
+        <tree id="6">
+          <tree reference="3"/>
+        </tree>
+      </municipality>
+      <reports id="7">
+        <report id="8">
+          <reportDate id="9">2018-09-23</reportDate>
+          <reportType>Marked</reportType>
+          <Reporter>tester2</Reporter>
+        </report>
+        <report id="10">
+          <reportDate id="11">2018-09-23</reportDate>
+          <reportType>Planted</reportType>
+          <Reporter>tester2</Reporter>
+        </report>
+      </reports>
+    </tree>
+    <tree id="12">
+      <x>45.474274</x>
+      <y>-73.636267</y>
+      <height>3.0</height>
+      <diameter>33.0</diameter>
+      <landType>Residential</landType>
+      <id>2</id>
+      <species id="13">
+        <nameLatin>Fraxinus americana</nameLatin>
+        <nameEnglish>White Ash</nameEnglish>
+        <nameFrench>Frêne d&apos;Amérique</nameFrench>
+      </species>
+      <municipality id="14">
+        <name>MontrealWest</name>
+        <tree id="15">
+          <tree reference="12"/>
+        </tree>
+      </municipality>
+      <reports id="16">
+        <report id="17">
+          <reportDate id="18">2018-09-23</reportDate>
+          <reportType>Marked</reportType>
+          <Reporter>tester2</Reporter>
+        </report>
+      </reports>
+    </tree>
+    <tree id="19">
+      <x>45.471088</x>
+      <y>-73.655652</y>
+      <height>5.0</height>
+      <diameter>33.0</diameter>
+      <landType>Residential</landType>
+      <id>3</id>
+      <species id="20">
+        <nameLatin>Fraxinus americana</nameLatin>
+        <nameEnglish>White Ash</nameEnglish>
+        <nameFrench>Frêne d&apos;Amérique</nameFrench>
+      </species>
+      <municipality id="21">
+        <name>MontrealWest</name>
+        <tree id="22">
+          <tree reference="19"/>
+        </tree>
+      </municipality>
+      <reports id="23"/>
+    </tree>
+    <tree id="24">
+      <x>45.478961</x>
+      <y>-73.859316</y>
+      <height>7.0</height>
+      <diameter>11.0</diameter>
+      <landType>Residential</landType>
+      <id>4</id>
+      <species id="25">
+        <nameLatin>Fraxinus pennsylvanica</nameLatin>
+        <nameEnglish>Red Ash</nameEnglish>
+        <nameFrench>Frêne de Pennsylvanie</nameFrench>
+      </species>
+      <municipality id="26">
+        <name>MontrealWest</name>
+        <tree id="27">
+          <tree reference="24"/>
+        </tree>
+      </municipality>
+      <reports id="28">
+        <report id="29">
+          <reportDate id="30">2018-09-23</reportDate>
+          <reportType>Diseased</reportType>
+          <Reporter>tester2</Reporter>
+        </report>
+      </reports>
+    </tree>
+    <tree id="31">
+      <x>45.619487</x>
+      <y>-73.649157</y>
+      <height>10.0</height>
+      <diameter>33.0</diameter>
+      <landType>Residential</landType>
+      <id>5</id>
+      <species id="32">
+        <nameLatin>Fraxinus pennsylvanica</nameLatin>
+        <nameEnglish>Red Ash</nameEnglish>
+        <nameFrench>Frêne de Pennsylvanie</nameFrench>
+      </species>
+      <municipality id="33">
+        <name>MontrealWest</name>
+        <tree id="34">
+          <tree reference="31"/>
+        </tree>
+      </municipality>
+      <reports id="35"/>
+    </tree>
+    <tree id="36">
+      <x>45.023648</x>
+      <y>-73.159648</y>
+      <height>23.0</height>
+      <diameter>14.0</diameter>
+      <landType>Institutional</landType>
+      <id>6</id>
+      <species id="37">
+        <nameLatin>Fraxinus pennsylvanica</nameLatin>
+        <nameEnglish>Red Ash</nameEnglish>
+        <nameFrench>Frêne de Pennsylvanie</nameFrench>
+      </species>
+      <municipality id="38">
+        <name>MontrealWest</name>
+        <tree id="39">
+          <tree reference="36"/>
+        </tree>
+      </municipality>
+      <reports id="40"/>
+    </tree>
+    <tree id="41">
+      <x>45.694528</x>
+      <y>-73.675842</y>
+      <height>4.0</height>
+      <diameter>13.0</diameter>
+      <landType>Institutional</landType>
+      <id>7</id>
+      <species id="42">
+        <nameLatin>Fraxinus pennsylvanica</nameLatin>
+        <nameEnglish>Red Ash</nameEnglish>
+        <nameFrench>Frêne de Pennsylvanie</nameFrench>
+      </species>
+      <municipality id="43">
+        <name>MontrealWest</name>
+        <tree id="44">
+          <tree reference="41"/>
+        </tree>
+      </municipality>
+      <reports id="45"/>
+    </tree>
+    <tree id="46">
+      <x>45.639128</x>
+      <y>-73.649121</y>
+      <height>5.0</height>
+      <diameter>8.0</diameter>
+      <landType>Institutional</landType>
+      <id>8</id>
+      <species id="47">
+        <nameLatin>Fraxinus pennsylvanica</nameLatin>
+        <nameEnglish>Red Ash</nameEnglish>
+        <nameFrench>Frêne de Pennsylvanie</nameFrench>
+      </species>
+      <municipality id="48">
+        <name>MontrealWest</name>
+        <tree id="49">
+          <tree reference="46"/>
+        </tree>
+      </municipality>
+      <reports id="50"/>
+    </tree>
+    <tree id="51">
+      <x>45.976465</x>
+      <y>-73.235689</y>
+      <height>8.0</height>
+      <diameter>16.0</diameter>
+      <landType>Institutional</landType>
+      <id>9</id>
+      <species id="52">
+        <nameLatin>Fraxinus pennsylvanica</nameLatin>
+        <nameEnglish>Red Ash</nameEnglish>
+        <nameFrench>Frêne de Pennsylvanie</nameFrench>
+      </species>
+      <municipality id="53">
+        <name>MontrealWest</name>
+        <tree id="54">
+          <tree reference="51"/>
+        </tree>
+      </municipality>
+      <reports id="55"/>
+    </tree>
+    <tree id="56">
+      <x>45.316475</x>
+      <y>-73.649162</y>
+      <height>6.0</height>
+      <diameter>9.0</diameter>
+      <landType>Institutional</landType>
+      <id>10</id>
+      <species id="57">
+        <nameLatin>Fraxinus pennsylvanica</nameLatin>
+        <nameEnglish>Red Ash</nameEnglish>
+        <nameFrench>Frêne de Pennsylvanie</nameFrench>
+      </species>
+      <municipality id="58">
+        <name>MontrealNorth</name>
+        <tree id="59">
+          <tree reference="56"/>
+        </tree>
+      </municipality>
+      <reports id="60"/>
+    </tree>
+    <tree id="61">
+      <x>45.649312</x>
+      <y>-73.645289</y>
+      <height>7.0</height>
+      <diameter>12.0</diameter>
+      <landType>Park</landType>
+      <id>11</id>
+      <species id="62">
+        <nameLatin>Fraxinus pennsylvanica</nameLatin>
+        <nameEnglish>Red Ash</nameEnglish>
+        <nameFrench>Frêne de Pennsylvanie</nameFrench>
+      </species>
+      <municipality id="63">
+        <name>MontrealNorth</name>
+        <tree id="64">
+          <tree reference="61"/>
+        </tree>
+      </municipality>
+      <reports id="65"/>
+    </tree>
+    <tree id="66">
+      <x>45.326412</x>
+      <y>-73.023058</y>
+      <height>8.0</height>
+      <diameter>20.0</diameter>
+      <landType>Park</landType>
+      <id>12</id>
+      <species id="67">
+        <nameLatin>Fraxinus pennsylvanica</nameLatin>
+        <nameEnglish>Red Ash</nameEnglish>
+        <nameFrench>Frêne de Pennsylvanie</nameFrench>
+      </species>
+      <municipality id="68">
+        <name>MontrealNorth</name>
+        <tree id="69">
+          <tree reference="66"/>
+        </tree>
+      </municipality>
+      <reports id="70"/>
+    </tree>
+    <tree id="71">
+      <x>45.316792</x>
+      <y>-73.164964</y>
+      <height>9.0</height>
+      <diameter>25.0</diameter>
+      <landType>Municipal</landType>
+      <id>13</id>
+      <species id="72">
+        <nameLatin>Fraxinus pennsylvanica</nameLatin>
+        <nameEnglish>Red Ash</nameEnglish>
+        <nameFrench>Frêne de Pennsylvanie</nameFrench>
+      </species>
+      <municipality id="73">
+        <name>MontrealNorth</name>
+        <tree id="74">
+          <tree reference="71"/>
+        </tree>
+      </municipality>
+      <reports id="75"/>
+    </tree>
+    <tree id="76">
+      <x>45.134625</x>
+      <y>-73.612987</y>
+      <height>7.0</height>
+      <diameter>25.0</diameter>
+      <landType>Municipal</landType>
+      <id>14</id>
+      <species id="77">
+        <nameLatin>Fraxinus pennsylvanica</nameLatin>
+        <nameEnglish>Red Ash</nameEnglish>
+        <nameFrench>Frêne de Pennsylvanie</nameFrench>
+      </species>
+      <municipality id="78">
+        <name>CND-NDG</name>
+        <tree id="79">
+          <tree reference="76"/>
+        </tree>
+      </municipality>
+      <reports id="80"/>
+    </tree>
+    <tree id="81">
+      <x>45.302137</x>
+      <y>-73.649832</y>
+      <height>6.0</height>
+      <diameter>23.0</diameter>
+      <landType>Municipal</landType>
+      <id>15</id>
+      <species id="82">
+        <nameLatin>Fraxinus pennsylvanica</nameLatin>
+        <nameEnglish>Red Ash</nameEnglish>
+        <nameFrench>Frêne de Pennsylvanie</nameFrench>
+      </species>
+      <municipality id="83">
+        <name>CND-NDG</name>
+        <tree id="84">
+          <tree reference="81"/>
+        </tree>
+      </municipality>
+      <reports id="85"/>
+    </tree>
+    <tree id="86">
+      <x>45.032094</x>
+      <y>-73.620973</y>
+      <height>5.0</height>
+      <diameter>24.0</diameter>
+      <landType>Municipal</landType>
+      <id>16</id>
+      <species id="87">
+        <nameLatin>Fraxinus pennsylvanica</nameLatin>
+        <nameEnglish>Red Ash</nameEnglish>
+        <nameFrench>Frêne de Pennsylvanie</nameFrench>
+      </species>
+      <municipality id="88">
+        <name>CND-NDG</name>
+        <tree id="89">
+          <tree reference="86"/>
+        </tree>
+      </municipality>
+      <reports id="90"/>
+    </tree>
+    <tree id="91">
+      <x>294495.978</x>
+      <y>5036338.919</y>
+      <height>4.0</height>
+      <diameter>45.0</diameter>
+      <landType>Residential</landType>
+      <id>17</id>
+      <species id="92">
+        <nameLatin>Fraxinus americana</nameLatin>
+        <nameEnglish>White Ash</nameEnglish>
+        <nameFrench>Frêne d&apos;Amérique</nameFrench>
+      </species>
+      <municipality id="93">
+        <name>Côte-des-Neiges - Notre-Dame-de-Grâce</name>
+        <tree id="94">
+          <tree reference="91"/>
+        </tree>
+      </municipality>
+      <reports id="95"/>
+    </tree>
+    <tree id="96">
+      <x>45.694528</x>
+      <y>73.675842</y>
+      <height>0.0</height>
+      <diameter>0.0</diameter>
+      <landType>Park</landType>
+      <id>18</id>
+      <species id="97">
+        <nameEnglish>Pine</nameEnglish>
+      </species>
+      <municipality id="98">
+        <name>MontrealWest</name>
+        <tree id="99">
+          <tree reference="96"/>
+        </tree>
+      </municipality>
+      <reports id="100">
+        <report id="101">
+          <reportDate id="102">2018-09-24</reportDate>
+          <reportType>Planted</reportType>
+          <Reporter>tester1</Reporter>
+        </report>
+      </reports>
+    </tree>
+    <tree id="103">
+      <x>45.694528</x>
+      <y>73.675842</y>
+      <height>0.0</height>
+      <diameter>0.0</diameter>
+      <landType>Park</landType>
+      <id>19</id>
+      <species id="104">
+        <nameEnglish>Pine</nameEnglish>
+      </species>
+      <municipality id="105">
+        <name>MontrealWest</name>
+        <tree id="106">
+          <tree reference="103"/>
+        </tree>
+      </municipality>
+      <reports id="107">
+        <report id="108">
+          <reportDate id="109">2018-09-24</reportDate>
+          <reportType>Planted</reportType>
+          <Reporter>tester1</Reporter>
+        </report>
+      </reports>
+    </tree>
+    <tree id="110">
+      <x>45.694528</x>
+      <y>73.675842</y>
+      <height>0.0</height>
+      <diameter>0.0</diameter>
+      <landType>Park</landType>
+      <id>20</id>
+      <species id="111">
+        <nameEnglish>Pine</nameEnglish>
+      </species>
+      <municipality id="112">
+        <name>MontrealWest</name>
+        <tree id="113">
+          <tree reference="110"/>
+        </tree>
+      </municipality>
+      <reports id="114">
+        <report id="115">
+          <reportDate id="116">2018-09-24</reportDate>
+          <reportType>Planted</reportType>
+          <Reporter>tester1</Reporter>
+        </report>
+      </reports>
+    </tree>
+    <tree id="117">
+      <x>45.694528</x>
+      <y>73.675842</y>
+      <height>0.0</height>
+      <diameter>0.0</diameter>
+      <landType>Park</landType>
+      <id>21</id>
+      <species id="118">
+        <nameEnglish>Pine</nameEnglish>
+      </species>
+      <municipality id="119">
+        <name>MontrealWest</name>
+        <tree id="120">
+          <tree reference="117"/>
+        </tree>
+      </municipality>
+      <reports id="121">
+        <report id="122">
+          <reportDate id="123">2018-09-24</reportDate>
+          <reportType>Planted</reportType>
+          <Reporter>tester1</Reporter>
+        </report>
+      </reports>
+    </tree>
+    <tree id="124">
+      <x>45.694528</x>
+      <y>73.675842</y>
+      <height>0.0</height>
+      <diameter>0.0</diameter>
+      <landType>Park</landType>
+      <id>22</id>
+      <species id="125">
+        <nameEnglish>Pine</nameEnglish>
+      </species>
+      <municipality id="126">
+        <name>MontrealWest</name>
+        <tree id="127">
+          <tree reference="124"/>
+        </tree>
+      </municipality>
+      <reports id="128">
+        <report id="129">
+          <reportDate id="130">2018-09-24</reportDate>
+          <reportType>Planted</reportType>
+          <Reporter>tester1</Reporter>
+        </report>
+      </reports>
+    </tree>
+  </tree>
+  <species id="131">
+    <species reference="4"/>
+    <species reference="13"/>
+    <species reference="20"/>
+    <species reference="25"/>
+    <species reference="32"/>
+    <species reference="37"/>
+    <species reference="42"/>
+    <species reference="47"/>
+    <species reference="52"/>
+    <species reference="57"/>
+    <species reference="62"/>
+    <species reference="67"/>
+    <species reference="72"/>
+    <species reference="77"/>
+    <species reference="82"/>
+    <species reference="87"/>
+    <species reference="92"/>
+    <species reference="97"/>
+    <species reference="104"/>
+    <species reference="111"/>
+    <species reference="118"/>
+    <species reference="125"/>
+  </species>
+  <municipality id="132">
+    <municipality reference="5"/>
+    <municipality reference="14"/>
+    <municipality reference="21"/>
+    <municipality reference="26"/>
+    <municipality reference="33"/>
+    <municipality reference="38"/>
+    <municipality reference="43"/>
+    <municipality reference="48"/>
+    <municipality reference="53"/>
+    <municipality reference="58"/>
+    <municipality reference="63"/>
+    <municipality reference="68"/>
+    <municipality reference="73"/>
+    <municipality reference="78"/>
+    <municipality reference="83"/>
+    <municipality reference="88"/>
+    <municipality reference="93"/>
+    <municipality reference="98"/>
+    <municipality reference="105"/>
+    <municipality reference="112"/>
+    <municipality reference="119"/>
+    <municipality reference="126"/>
+  </municipality>
+  <report id="133"/>
+</manager>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">TreePLE</string>
+    <string name="local_resident">Local Resident</string>
+    <string name="scientist">Scientist</string>
+
+    <string name="add_tree">ADD TREE</string>
+    <string name="remove_tree">CUT TREE</string>
+    <string name="mark_tree">CUT/MARK TREE</string>
+    <string name="find_trees">FIND TREES</string>
+
+    <!-- AddTree -->
+    <string name="enter_name">Name</string>
+    <string name="enter_tree_type">Tree Species</string>
+    <string name="get_location">Get Coordinates</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="height">Height (in m)</string>
+    <string name="diameter">Diameter (in cm)</string>
+    <string name="enter_date">Date Planted</string>
+    <string name="default_date">01-01-2018</string>
+    <string name="municipality">Municipality</string>
+    <string name="land_use">Land Use Type</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!--MarkTree-->
+    <string name="mark_tree_info">Select values to use for tree search.</string>
+    <string name="spe">Species</string>
+    <string name="mun">Municipality</string>
+
+    <!--Map-->
+    <string name="map_info">Select marker for Tree info, click info for actions.</string>
+</resources>

@@ -1,0 +1,43 @@
+namespace ca.mcgill.ecse321.treeple.model;
+
+enum ReportType {Planted, Diseased, Marked, CuttedDown}
+
+enum Landtype {Residential,Institutional, Park, Municipal}
+
+class TreePleManager{
+  1 -> * Tree tree;
+  1 -> * Species species;
+  1 -> * Municipality municipality;
+  1 -> * Report report;
+}
+
+class Tree{
+  autounique id;
+  * -> 1 Species species;
+  * tree -- 1 Municipality municipality;
+  1  ->  * Report reports;
+  double x;
+  double y;
+  double height;
+  double diameter;
+  Landtype landType;
+}
+
+class Report{
+  Date reportDate;
+  ReportType reportType;
+  Reporter;
+}
+
+class Municipality{
+  name;
+}
+
+class Species{
+   acronym;
+   nameLatin;
+   nameEnglish;
+   nameFrench;
+  
+   ImageIcon icon;
+}
